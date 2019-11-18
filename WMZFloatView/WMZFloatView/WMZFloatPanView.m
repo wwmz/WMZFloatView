@@ -514,7 +514,10 @@
         
         self.closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [self.contentView addSubview:self.closeBtn];
-        [self.closeBtn setImage:[UIImage imageNamed:@"float_close"] forState:UIControlStateNormal];
+        
+        NSBundle *bundle =  [NSBundle bundleWithPath:[[NSBundle bundleForClass:[WMZFloatPanCell class]] pathForResource:@"WMZFloatView" ofType:@"bundle"]];
+        NSString *path = [bundle pathForResource:@"float_close" ofType:@"png"];
+        [self.closeBtn setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
     }
     return self;
 }

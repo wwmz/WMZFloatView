@@ -11,6 +11,7 @@
 		F330EC86237BCC1A00D2610C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F330EC7F237BCC1900D2610C /* ViewController.m */; };
 		F330EC87237BCC1A00D2610C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F330EC80237BCC1900D2610C /* HomeVC.m */; };
 		F330EC88237BCC1A00D2610C /* normalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F330EC82237BCC1900D2610C /* normalVC.m */; };
+		F37BE3BF2382770300E41DF8 /* WMZFloatView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F37BE3BE2382770300E41DF8 /* WMZFloatView.bundle */; };
 		F37FE31C237A556900D5883F /* WMZFloatPanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F37FE31B237A556900D5883F /* WMZFloatPanView.m */; };
 		F3E97C6423769584002EF905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E97C6323769584002EF905 /* AppDelegate.m */; };
 		F3E97C6723769584002EF905 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E97C6623769584002EF905 /* SceneDelegate.m */; };
@@ -109,6 +110,7 @@
 		F330EC82237BCC1900D2610C /* normalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = normalVC.m; sourceTree = "<group>"; };
 		F330EC83237BCC1900D2610C /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		F330EC84237BCC1900D2610C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F37BE3BE2382770300E41DF8 /* WMZFloatView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMZFloatView.bundle; sourceTree = "<group>"; };
 		F37FE31A237A556900D5883F /* WMZFloatPanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZFloatPanView.h; sourceTree = "<group>"; };
 		F37FE31B237A556900D5883F /* WMZFloatPanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZFloatPanView.m; sourceTree = "<group>"; };
 		F3E97C5F23769584002EF905 /* WMZFloatView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMZFloatView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -367,6 +369,7 @@
 				F3E97CA32376F939002EF905 /* WMZFloatTool.m */,
 				F3E97CA523770F61002EF905 /* WMZFloatNaviAnimation.h */,
 				F3E97CA623770F61002EF905 /* WMZFloatNaviAnimation.m */,
+				F37BE3BE2382770300E41DF8 /* WMZFloatView.bundle */,
 			);
 			path = WMZFloatView;
 			sourceTree = "<group>";
@@ -632,6 +635,7 @@
 			files = (
 				F3E97C7223769586002EF905 /* LaunchScreen.storyboard in Resources */,
 				F3E97C6F23769586002EF905 /* Assets.xcassets in Resources */,
+				F37BE3BF2382770300E41DF8 /* WMZFloatView.bundle in Resources */,
 				F3E97C6D23769584002EF905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

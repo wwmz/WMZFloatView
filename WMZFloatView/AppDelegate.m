@@ -23,6 +23,7 @@
       } else {
           UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[HomeVC alloc]init]];
           self.window.rootViewController = nav;
+          //需要加这句话
           [self.window makeKeyAndVisible];
           
           

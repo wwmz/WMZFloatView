@@ -54,7 +54,9 @@
 - (void)fullCount{
     self.backgroundColor = FloatColor(0xeeeeee);
     self.text.textColor = FloatColor(0xc7c5c7);
-    self.image.image = [UIImage imageNamed:@"float_circle_full"];
+    NSBundle *bundle =  [NSBundle bundleWithPath:[[NSBundle bundleForClass:[WMZFloatView class]] pathForResource:@"WMZFloatView" ofType:@"bundle"]];
+    NSString *path = [bundle pathForResource:@"float_circle_full" ofType:@"png"];
+    self.image.image = [UIImage imageWithContentsOfFile:path];
     self.text.text = @"浮窗已满";
 }
 
@@ -62,7 +64,9 @@
 -(void)notFullCount{
      self.backgroundColor = FloatColor(0x5a585a);
      self.text.textColor = [UIColor whiteColor];
-     self.image.image = [UIImage imageNamed:@"float_circle"];
+     NSBundle *bundle =  [NSBundle bundleWithPath:[[NSBundle bundleForClass:[WMZFloatView class]] pathForResource:@"WMZFloatView" ofType:@"bundle"]];
+     NSString *path = [bundle pathForResource:@"float_circle" ofType:@"png"];
+     self.image.image = [UIImage imageWithContentsOfFile:path];
      self.text.text = @"浮窗";
 }
 
