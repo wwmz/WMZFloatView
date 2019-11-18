@@ -2,7 +2,8 @@
 
 演示
 ==============
-![floatShow.gif](https://upload-images.jianshu.io/upload_images/9163368-47e1e2172d9d09b8.gif?imageMogr2/auto-orient/strip)
+
+![myFloat.gif](https://upload-images.jianshu.io/upload_images/9163368-73715a61ad854639.gif?imageMogr2/auto-orient/strip)
 
 用法1 在Appdelegate中注册  传入对应控制器的className
 ==============
