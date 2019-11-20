@@ -14,7 +14,6 @@
 		F37BE3BF2382770300E41DF8 /* WMZFloatView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F37BE3BE2382770300E41DF8 /* WMZFloatView.bundle */; };
 		F37FE31C237A556900D5883F /* WMZFloatPanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F37FE31B237A556900D5883F /* WMZFloatPanView.m */; };
 		F3E97C6423769584002EF905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E97C6323769584002EF905 /* AppDelegate.m */; };
-		F3E97C6723769584002EF905 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E97C6623769584002EF905 /* SceneDelegate.m */; };
 		F3E97C6D23769584002EF905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E97C6B23769584002EF905 /* Main.storyboard */; };
 		F3E97C6F23769586002EF905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E97C6E23769586002EF905 /* Assets.xcassets */; };
 		F3E97C7223769586002EF905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E97C7023769586002EF905 /* LaunchScreen.storyboard */; };
@@ -116,8 +115,6 @@
 		F3E97C5F23769584002EF905 /* WMZFloatView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMZFloatView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E97C6223769584002EF905 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3E97C6323769584002EF905 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F3E97C6523769584002EF905 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		F3E97C6623769584002EF905 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		F3E97C6C23769584002EF905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3E97C6E23769586002EF905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3E97C7123769586002EF905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -325,8 +322,6 @@
 				F330EC7C237BCC1900D2610C /* controllers */,
 				F3E97C6223769584002EF905 /* AppDelegate.h */,
 				F3E97C6323769584002EF905 /* AppDelegate.m */,
-				F3E97C6523769584002EF905 /* SceneDelegate.h */,
-				F3E97C6623769584002EF905 /* SceneDelegate.m */,
 				F3E97C6B23769584002EF905 /* Main.storyboard */,
 				F3E97C6E23769586002EF905 /* Assets.xcassets */,
 				F3E97C7023769586002EF905 /* LaunchScreen.storyboard */,
@@ -723,7 +718,6 @@
 				F330EC85237BCC1A00D2610C /* ProtocolVC.m in Sources */,
 				F3EA1D232381354B008961BE /* SDWebImagePrefetcher.m in Sources */,
 				F3EA1D352381354B008961BE /* SDImageCacheDefine.m in Sources */,
-				F3E97C6723769584002EF905 /* SceneDelegate.m in Sources */,
 				F3EA1D212381354B008961BE /* SDImageAPNGCoder.m in Sources */,
 				F3EA1D452381354B008961BE /* NSBezierPath+RoundedCorners.m in Sources */,
 				F3EA1D332381354B008961BE /* UIImageView+WebCache.m in Sources */,
