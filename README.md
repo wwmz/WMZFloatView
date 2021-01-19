@@ -5,7 +5,7 @@
 
 ![myFloat.gif](https://upload-images.jianshu.io/upload_images/9163368-73715a61ad854639.gif?imageMogr2/auto-orient/strip)
 
-用法1 在Appdelegate中注册  传入对应控制器的className
+1 在Appdelegate中注册  传入对应控制器的className
 ==============
 
      //只带控制器的className 
@@ -13,15 +13,14 @@
       //带其他配置(标题和图片)
     [[WMZFloatManage shareInstance]    registerControllers:@[@{@"controllerName":@"ViewController",@"icon":@"float_circle_full"}]];
 
-用法2 实现协议 WMZFloatViewProtocol 即可
+2 实现协议 WMZFloatViewProtocol 即可
 ==============
 
      //可选实现协议的方法 传入标题和图片
       - (NSDictionary *)floatViewConfig{
         return @{@"name":@"实际显示在悬浮窗的标题",@"icon":@"float_image"};
      }
-
-用法3 改变转场动画 传入继承UIViewControllerAnimatedTransitioning协议的类即可
+ 改变转场动画 传入继承UIViewControllerAnimatedTransitioning协议的类即可
 ==============
     //自定义push动画
     @property(nonatomic,strong)NSObject<UIViewControllerAnimatedTransitioning> *pushAnimal;
